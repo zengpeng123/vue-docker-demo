@@ -1,5 +1,5 @@
-# 使用 node 6.10.3 的精简版作为基础镜像
-FROM node:6.10.3-slim
+# 使用 node 10.15.3 的精简版作为基础镜像
+FROM node:10.15.3
 
 # 安装nginx
 RUN apt-get update \
